@@ -7,7 +7,7 @@
 
 .card .card-top{
     border-radius: 10px;
-    padding: 0px 10px 10px;
+    padding: 5px 10px 10px;
 }
 
 .card .name{
@@ -45,6 +45,16 @@
     border-bottom-right-radius: 10px;
 }
 
+.card .card-status .status{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .card-status .abilities{
+    display: flex;
+    justify-content: space-between;
+}
+
 .card .card-status h3{
     font-size: 28px;
     margin-bottom: 8px;
@@ -73,6 +83,9 @@
 .type-lightning{
     background-color: rgb(250, 236, 46);
 }
+.type-lightning span{
+    color: black;
+}
 .type-grass{
     background-color: rgb(47, 189, 11);
 }
@@ -87,4 +100,16 @@
 }
 .type-dragon{
     background-color: rgb(242, 180, 100);
+}
+.type-normal{
+    background-color: rgb(228, 202, 168);
+}
+.type-normal span{
+    color: black;
+}
+.type-rock{
+    background-color: rgb(105, 105, 105);
+}
+.type-fighter{
+    background-color: rgb(204, 152, 83);
 }
