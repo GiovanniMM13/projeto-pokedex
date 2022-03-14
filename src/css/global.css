@@ -1,0 +1,16 @@
+body{
+    font-family: 'Smooch Sans', sans-serif;
+}
+main{
+    background-color: rgb(201, 198, 198);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pokedex{
+    display: flex;
+    gap: 40px;
+    padding: 30px 0px 30px 0px;
+    align-self: auto;
+}

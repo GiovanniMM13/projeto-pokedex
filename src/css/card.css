@@ -1,0 +1,90 @@
+.card{
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 0px 0px 0px;
+}
+
+.card .card-top{
+    border-radius: 10px;
+    padding: 0px 10px 10px;
+}
+
+.card .name{
+    color: white;
+    padding: 0px 0px 8px 0px;
+}
+
+.card .details{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .details span{
+    font-size: 20px;
+}
+
+.card .type{
+    font-size: 15px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 2px 10px;
+    opacity: 0.7;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card .card-status{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 30px 20px;
+    margin-top: -70px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card .card-status h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid grey;
+}
+
+.card .card-status ul li{
+    padding: 0px 0px 3px;
+    font-size: 17px;
+}
+
+.pokemon-card .card-image{
+    width: 350px;
+    height: 350px;
+}
+
+.card img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card.open{
+    display: block;
+}
+
+.type-lightning{
+    background-color: rgb(250, 236, 46);
+}
+.type-grass{
+    background-color: rgb(47, 189, 11);
+}
+.type-fire{
+    background-color: rgb(255, 81, 0);
+}
+.type-water{
+    background-color: rgb(62, 110, 243);
+}
+.type-ghost{
+    background-color: rgb(204, 110, 228);
+}
+.type-dragon{
+    background-color: rgb(242, 180, 100);
+}
